@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<!--
+	Identity by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Identity by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="main">
+						<header>
+							<h1>Kaamelot-tron</h1>
+        
+			        <audio id="audioPlayer">
+			            <source src="trompette.mp3">
+			        </audio>   
+			        <audio id="audio2">
+			            <source src="suite.mp3">
+			        </audio>    
+			        
+			        <h3>Choisissez un nombre de citation</h3>   
+			        <p id="radio">
+								<input onclick="play('audioPlayer',this)" type="radio" id="nb1" name="nb" value="1" checked/><label for="nb1">1</label>
+								<input onclick="play('audioPlayer',this)" type="radio" id="nb2" name="nb" value="2" /><label for="nb2">2</label>
+								<input onclick="play('audioPlayer',this)" type="radio" id="nb3" name="nb" value=3 /><label for="nb3">3</label>
+								<input onclick="play('audioPlayer',this)" type="radio" id="nb4" name="nb" value=4 /><label for="nb4">4</label>
+								<input onclick="play('audioPlayer',this)" type="radio" id="nb5" name="nb" value=5 /><label for="nb5">5</label>
+			        </p>
+			        
+
+			        <h3>Choisissez un personnage</h3>
+			        <div class="img">       
+			                <p>    
+			                    <img src="perceval.jpg" height=100px onclick="perceval.sentenceX(), play('audio2',this)"; />
+			                    <img src="leodagand.jpg" height=100px onclick="leodagand.sentenceX(), play('audio2',this)";/>                
+			                </p>                     
+			        </div>   
+
+        
+        <div id="contenu">
+                   
+        </div>
+							
+		
+		</section>
+
+	    <!-- Footer -->
+		<footer id="footer">
+						
+		</footer>
+
+		<!-- Scripts -->
+		<script src="../js/citation2.js"></script>
+			
+	    
+	</body>
+</html>
